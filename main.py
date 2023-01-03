@@ -29,9 +29,9 @@ msg_buttons=InlineKeyboardMarkup(
 # Fillout The variables in Config.py further queries @riz4d 0n telegram
 
 app=Client('Temp-Mail Bot',
-           api_id=API_ID,
-           api_hash=API_HASH,
-           bot_token=BOT_TOKEN)
+           api_id=14615022,
+           api_hash=c318cf1ddc8eb8027f28d23912291db5,
+           bot_token=5853012330:AAED9PxQJPbTd5hHABo3INUGWEmfCQoz-M0)
 email=''
 @app.on_message(filters.command('start'))
 async def start_msg(client,message):
